@@ -24,6 +24,10 @@ const router = createBrowserRouter([
         path:"review",
         element:<OrderReview></OrderReview>
       }
+      ,{
+        path:"*"
+        ,element: <div>NOT FOUNDED</div>
+      }
     ]
 
   }
