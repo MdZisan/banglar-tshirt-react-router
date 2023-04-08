@@ -8,6 +8,7 @@ const Header = () => {
            <Link className='ml-3 text-lg'  to="/review">Reviews</Link>
            <Link className='ml-3 text-lg' to="/about">About</Link>
            <Link className='ml-3 text-lg' to="/contact">Contact</Link>
+           <Link className='ml-3 text-lg' to="/grandpa">Grandpa</Link>
 
         </nav>
     );

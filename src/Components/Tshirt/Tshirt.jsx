@@ -13,7 +13,7 @@ const Tshirt = ({ tshirt, handleAddToCart }) => {
       <h2>Price: ${price}</h2>
       <button
         className="bg-white text-black px-2 py-0 hover:shadow-lg hover:shadow-white transition-all"
-        onClick={() => handleAddToCart(_id)}
+        onClick={() => handleAddToCart(tshirt)}
       >
         Buy Now
       </button>
